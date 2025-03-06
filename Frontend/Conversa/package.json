@@ -1,0 +1,32 @@
+{
+  "name": "conversa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.1",
+    "expo": "~52.0.37",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-web": "~0.19.13",
+    "expo-constants": "~17.0.7",
+    "react-native-safe-area-context": "4.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "eslint": "^8.57.0",
+    "eslint-config-expo": "~8.0.1",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-plugin-prettier": "^5.2.3",
+    "prettier": "^3.5.3"
+  },
+  "private": true
+}
