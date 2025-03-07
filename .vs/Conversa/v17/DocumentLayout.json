@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno servidor\\Conversa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\chrro\\onedrive\\documentos\\desarrollo web entorno servidor\\conversa\\conversa\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\chrro\\onedrive\\documentos\\desarrollo web entorno servidor\\conversa\\conversa\\models\\databases\\repository\\contactsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\models\\databases\\repository\\contactsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\chrro\\onedrive\\documentos\\desarrollo web entorno servidor\\conversa\\conversa\\models\\interfaces\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\models\\interfaces\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\chrro\\onedrive\\documentos\\desarrollo web entorno servidor\\conversa\\conversa\\models\\databases\\dtos\\addcontactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\models\\databases\\dtos\\addcontactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddContactRequest.cs",
+              "DocumentMoniker": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno servidor\\Conversa\\Conversa\\Models\\Databases\\Dtos\\AddContactRequest.cs",
+              "RelativeDocumentMoniker": "Conversa\\Models\\Databases\\Dtos\\AddContactRequest.cs",
+              "ToolTip": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno servidor\\Conversa\\Conversa\\Models\\Databases\\Dtos\\AddContactRequest.cs",
+              "RelativeToolTip": "Conversa\\Models\\Databases\\Dtos\\AddContactRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T22:45:41.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno servidor\\Conversa\\Conversa\\Models\\Interfaces\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "Conversa\\Models\\Interfaces\\IContactRepository.cs",
+              "ToolTip": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno servidor\\Conversa\\Conversa\\Models\\Interfaces\\IContactRepository.cs",
+              "RelativeToolTip": "Conversa\\Models\\Interfaces\\IContactRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T22:29:47.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno servidor\\Conversa\\Conversa\\Models\\Databases\\Repository\\ContactsRepository.cs",
+              "RelativeDocumentMoniker": "Conversa\\Models\\Databases\\Repository\\ContactsRepository.cs",
+              "ToolTip": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno servidor\\Conversa\\Conversa\\Models\\Databases\\Repository\\ContactsRepository.cs",
+              "RelativeToolTip": "Conversa\\Models\\Databases\\Repository\\ContactsRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T22:28:47.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno servidor\\Conversa\\Conversa\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "Conversa\\Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno servidor\\Conversa\\Conversa\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "Conversa\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T22:05:02.364Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
