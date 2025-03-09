@@ -41,6 +41,12 @@ public class DataContext : DbContext
             .OnDelete(DeleteBehavior.Cascade);
 
         modelBuilder.Entity<Messages>()
+            .HasOne(m => m.Receiver)  
+            .WithMany()              
+            .HasForeignKey(m => m.ReceiverId) 
+            .OnDelete(DeleteBehavior.Cascade);
+
+        modelBuilder.Entity<Messages>()
             .HasOne(m => m.Group)
             .WithMany(g => g.Messages)
             .HasForeignKey(m => m.GroupId)
@@ -64,5 +70,6 @@ public class DataContext : DbContext
             .HasForeignKey(g => g.CreatorId)
             .OnDelete(DeleteBehavior.Restrict);
     }
+
 }
 

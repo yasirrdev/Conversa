@@ -2,12 +2,16 @@ using Conversa.Models.Databases;
 using Conversa.Models.Databases.Repository;
 using Conversa.Models.Interfaces;
 using Conversa.Models.Mapper;
+using Conversa.Repositories;
+using Conversa.Seeders;
 using Conversa.Services;
+using Conversa.Websockets;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 namespace Conversa;
+
 public class Program
 {
     public static void Main(string[] args)
@@ -17,13 +21,18 @@ public class Program
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
+
         builder.Services.AddScoped<DataContext>();
         builder.Services.AddScoped<UserMapper>();
-
+        builder.Services.AddScoped<DatabaseSeeder>();
 
         builder.Services.AddScoped<IPasswordHasher, PasswordService>();
         builder.Services.AddScoped<IUserRepository, UserRepository>();
         builder.Services.AddScoped<IContactRepository, ContactsRepository>();
+        builder.Services.AddScoped<MessagesRepository>();
+
+        builder.Services.AddSingleton<websocketHandler>();
+        builder.Services.AddSingleton<ChatHandler>();
 
         builder.Services.AddAuthentication(options =>
         {
@@ -34,33 +43,37 @@ public class Program
             string key = Environment.GetEnvironmentVariable("JWT_KEY");
             if (string.IsNullOrEmpty(key))
             {
-                throw new Exception("JWT_KEY variable de entorno no esta configurada.");
+                throw new Exception("JWT_KEY variable de entorno no está configurada.");
             }
 
             options.TokenValidationParameters = new TokenValidationParameters
             {
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),
                 ValidateIssuer = false,
-                ValidateAudience = false,
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key))
+                ValidateAudience = false
             };
         });
 
         builder.Services.AddCors(options =>
         {
-            options.AddPolicy("AllowFrontend",
-                policy =>
-                {
-                    policy.AllowAnyOrigin()
-                          .AllowAnyMethod()
-                          .AllowAnyHeader();
-                });
+            options.AddPolicy("AllowFrontend", policy =>
+            {
+                policy.AllowAnyOrigin()
+                      .AllowAnyMethod()
+                      .AllowAnyHeader();
+            });
         });
+
         var app = builder.Build();
 
-        using (IServiceScope scope = app.Services.CreateScope())
+        using (var scope = app.Services.CreateScope())
         {
-            DataContext dbContext = scope.ServiceProvider.GetService<DataContext>();
+            var dbContext = scope.ServiceProvider.GetRequiredService<DataContext>();
             dbContext.Database.EnsureCreated();
+            var seeder = scope.ServiceProvider.GetRequiredService<DatabaseSeeder>();
+            seeder.SeedAsync();
         }
 
         if (app.Environment.IsDevelopment())
@@ -68,22 +81,21 @@ public class Program
             app.UseSwagger();
             app.UseSwaggerUI();
         }
-        app.UseAuthentication();
-        app.UseWebSockets();
 
         app.UseHttpsRedirection();
         app.UseRouting();
 
+        app.UseCors("AllowFrontend");
+        //app.UseMiddleware<middleware>();
         app.UseAuthentication();
         app.UseAuthorization();
-        app.UseStaticFiles();
 
-        app.UseCors("AllowFrontend");
+        app.UseWebSockets();
+
+        app.UseStaticFiles();
 
         app.MapControllers();
 
         app.Run();
     }
 }
-
-

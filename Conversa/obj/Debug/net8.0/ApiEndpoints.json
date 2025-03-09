@@ -58,6 +58,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MessagesController",
+    "Method": "GetChatMessages",
+    "RelativePath": "api/messages/chat/{userId1}/{userId2}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId1",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId2",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Conversa.Controllers.UserController",
     "Method": "GetUsers",
     "RelativePath": "api/User",
@@ -97,5 +118,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Conversa.Controllers.WebSocketController",
+    "Method": "ConnectHandler",
+    "RelativePath": "ws",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

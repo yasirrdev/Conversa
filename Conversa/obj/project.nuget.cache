@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b/DhdicaZ3Q=",
+  "dgSpecHash": "gUvLE492Jy4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno servidor\\Conversa\\Conversa\\Conversa.csproj",
+  "projectFilePath": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Conversa.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chrro\\.nuget\\packages\\f23.stringsimilarity\\6.0.0\\f23.stringsimilarity.6.0.0.nupkg.sha512",
     "C:\\Users\\chrro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

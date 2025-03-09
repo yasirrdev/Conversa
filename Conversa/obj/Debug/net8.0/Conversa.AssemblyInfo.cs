@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Conversa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d664632d602f03f5fb10b73a3faad7e6ef43c284")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d8813d736024763aaf20b98321a1b21ab8251f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Conversa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Conversa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

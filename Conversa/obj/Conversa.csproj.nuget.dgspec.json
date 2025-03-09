@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno servidor\\Conversa\\Conversa\\Conversa.csproj": {}
+    "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Conversa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno servidor\\Conversa\\Conversa\\Conversa.csproj": {
+    "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Conversa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno servidor\\Conversa\\Conversa\\Conversa.csproj",
+        "projectUniqueName": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Conversa.csproj",
         "projectName": "Conversa",
-        "projectPath": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno servidor\\Conversa\\Conversa\\Conversa.csproj",
+        "projectPath": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Conversa.csproj",
         "packagesPath": "C:\\Users\\chrro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno servidor\\Conversa\\Conversa\\obj\\",
+        "outputPath": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chrro\\AppData\\Roaming\\NuGet\\NuGet.Config",
