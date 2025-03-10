@@ -1,5 +1,6 @@
 ﻿using Conversa.Models.Databases.Dtos;
 using Conversa.Models.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;

@@ -10,10 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD:Local-Conversa/Frontend/Conversa/package.json
     "prop-types": "^15.8.1",
+=======
+    "jwt-decode": "^4.0.0",
+>>>>>>> Yasir:Frontend/Conversa/package.json
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.2.0"
+    "react-router-dom": "^7.2.0",
+    "sonner": "^2.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

@@ -1,14 +1,12 @@
 :root {
-    --primary-color: #40e0d0; /* Turquoise */
-    --secondary-color: #98ff98; /* Mint */
-    --accent-color: #20b2aa; /* Light Sea Green */
+    --primary-color: #40e0d0; 
+    --secondary-color: #98ff98; 
+    --accent-color: #20b2aa; 
     --text-color: #2b3a67;
-    --light-color: #f0ffff; /* Azure */
+    --light-color: #f0ffff; 
     --white-color: #ffffff;
     --shadow-color: rgba(64, 224, 208, 0.2);
     --error-color: #ff6b6b;
-    --google-color: #ea4335;
-    --facebook-color: #1877f2;
   }
   
   * {
@@ -91,6 +89,7 @@
     border-radius: 10px;
     font-size: 1rem;
     transition: all 0.3s ease;
+    background-color: var(--light-color);
     color: var(--text-color);
   }
   
@@ -249,51 +248,7 @@
     overflow: hidden;
   }
   
-  .blob-1 {
-    position: absolute;
-    width: 600px;
-    height: 600px;
-    background-color: var(--primary-color);
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    animation: blob-animation 15s ease-in-out infinite;
-    opacity: 0.1;
-    top: -200px;
-    right: -200px;
-  }
-  
-  .blob-2 {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    background-color: var(--secondary-color);
-    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
-    animation: blob-animation 15s ease-in-out infinite alternate;
-    opacity: 0.1;
-    bottom: -200px;
-    left: -150px;
-  }
-  
-  .circle-1 {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-color: var(--accent-color);
-    opacity: 0.05;
-    top: 10%;
-    left: 15%;
-  }
-  
-  .circle-2 {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: var(--primary-color);
-    opacity: 0.05;
-    bottom: 10%;
-    right: 10%;
-  }
+
   
   /* Animations */
   @keyframes fadeIn {
@@ -306,18 +261,7 @@
       transform: translateY(0);
     }
   }
-  
-  @keyframes blob-animation {
-    0% {
-      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    }
-    50% {
-      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-    }
-    100% {
-      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    }
-  }
+ 
   
   /* Responsive Design */
   @media (max-width: 600px) {

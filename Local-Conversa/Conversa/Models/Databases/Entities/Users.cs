@@ -10,9 +10,7 @@ public class Users
     [Phone]
     public string Phone { get; set; } 
     public string Password { get; set; }
-    public string Status { get; set; } = "Hi, I'm using Conversa!!!";
-    //public string? ProfilePicture { get; set; } 
-
+    public string Status { get; set; } = "Hi, I'm using Conversa!";
     public ICollection<Contacts> Contacts { get; set; }
     public ICollection<Users_Groups> UserGroups { get; set; }
     public ICollection<Messages> Messages { get; set; }

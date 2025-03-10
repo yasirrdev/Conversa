@@ -2,6 +2,7 @@
 using Conversa.Models.Databases.Dtos;
 using Conversa.Models.Interfaces;
 using Conversa.Models.Mapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Conversa.Controllers;
