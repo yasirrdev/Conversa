@@ -1,21 +1,45 @@
-"use client"
-
 import { useState } from "react"
 import { Link } from "react-router-dom"
+import { useAuth } from "../../../context/AuthContext"
 import "../styles/auth.css"
 import Logo from "../../../assets/logo.png"
 
 export default function Signin() {
   const [name, setName] = useState("")
-  const [email, setEmail] = useState("")
+  const [phone, setPhone] = useState("")
   const [password, setPassword] = useState("")
   const [confirmPassword, setConfirmPassword] = useState("")
   const [acceptTerms, setAcceptTerms] = useState(false)
+  const { register, login} = useAuth()
 
-  const handleSubmit = (e) => {
+  const handlePhoneChange = (e) => {
+    let value = e.target.value.replace(/\D/g, "")
+    
+    if (value.length > 9) value = value.slice(0, 9)
+
+    if (value.length > 6) {
+      value = `${value.slice(0, 3)} ${value.slice(3, 6)} ${value.slice(6)}`
+    } else if (value.length > 3) {
+      value = `${value.slice(0, 3)} ${value.slice(3)}`
+    }
+
+    setPhone(value)
+  }
+
+  const handleSubmit = async (e) => {
     e.preventDefault()
-    // Aquí iría la lógica de registro
-    console.log("Registro con:", { name, email, password, acceptTerms })
+    if (password !== confirmPassword) {
+      console.error("❌ Las contraseñas no coinciden")
+      return
+    }
+
+    try {
+      await register(name, phone.replace(/\s/g, ""), password)
+      console.log("✅ Registro exitoso con:", { name, phone })
+      await login(phone.replace(/\s/g, ""), password)
+    } catch (error) {
+      console.error("❌ Error en registro:", error.message)
+    }
   }
 
   return (
@@ -41,13 +65,14 @@ export default function Signin() {
           </div>
 
           <div className="form-group">
-            <label htmlFor="email">Correo Electrónico</label>
+            <label htmlFor="phone">Número de Teléfono</label>
             <input
-              type="email"
-              id="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="tu@email.com"
+              type="text"
+              id="phone"
+              value={phone}
+              onChange={handlePhoneChange}
+              placeholder="666 666 666"
+              maxLength="11" // Máximo 9 números + 2 espacios
               required
             />
           </div>
@@ -85,12 +110,7 @@ export default function Signin() {
                 onChange={(e) => setAcceptTerms(e.target.checked)}
                 required
               />
-              <label htmlFor="terms">
-                Acepto los{" "}
-                <a href="#" className="terms-link">
-                  Términos y Condiciones
-                </a>
-              </label>
+              <label htmlFor="terms">Acepto los términos y condiciones</label>
             </div>
           </div>
 
@@ -98,25 +118,6 @@ export default function Signin() {
             Crear Cuenta
           </button>
         </form>
-
-        <div className="auth-divider">
-          <span>O regístrate con</span>
-        </div>
-
-        <div className="social-login">
-          <button className="social-button google">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#EA4335">
-              <path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" />
-            </svg>
-            Google
-          </button>
-          <button className="social-button facebook">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#1877F2">
-              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-            </svg>
-            Facebook
-          </button>
-        </div>
 
         <div className="auth-footer">
           <p>
@@ -127,14 +128,6 @@ export default function Signin() {
           </p>
         </div>
       </div>
-
-      <div className="auth-background">
-        <div className="blob-1"></div>
-        <div className="blob-2"></div>
-        <div className="circle-1"></div>
-        <div className="circle-2"></div>
-      </div>
     </div>
   )
 }
-

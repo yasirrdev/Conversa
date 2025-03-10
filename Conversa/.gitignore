@@ -1,0 +1,29 @@
+# Ignorar configuraciones locales de IDE
+.vscode/
+.vs/
+
+# Ignorar carpetas de compilación
+bin/
+obj/
+
+# Ignorar archivos binarios generados
+*.dll
+*.exe
+*.pdb
+*.cache
+*.suo
+*.log
+*.tmp
+
+# Ignorar configuraciones de usuario específicas
+*.user
+
+# Ignorar configuraciones temporales de Visual Studio
+*.suo
+*.cache
+
+# Ignorar otros archivos temporales innecesarios
+*.bak
+*.tmp
+*.sourceinfo.json
+*.json (si aplica solo a archivos generados)

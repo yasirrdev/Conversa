@@ -2,12 +2,14 @@
 using Conversa.Models.Databases.Dtos;
 using Conversa.Models.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
+using LoginRequest = Conversa.Models.Databases.Dtos.LoginRequest;
 namespace Conversa.Controllers;
 
 [Route("api/[controller]")]
@@ -27,7 +29,7 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("login")]
-    public async Task<ActionResult<string>> Login([FromBody] Models.Databases.Dtos.LoginRequest model)
+    public async Task<ActionResult<string>> Login([FromBody] LoginRequest model)
     {
         string hashedPassword = _passwordHash.Hash(model.Password);
 
@@ -39,12 +41,12 @@ public class AuthController : ControllerBase
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Claims = new Dictionary<string, object>
-                {
-                    { "Id", user.Id.ToString()},
-                    { "Name", user.Name },
-                    { "Phone", user.Phone },
-                    { "Status", user.Status }
-                },
+            {
+                { "Id", user.Id.ToString()},
+                { "Name", user.Name },
+                { "Phone", user.Phone },
+                { "Status", user.Status }
+            },
                 Expires = DateTime.UtcNow.AddHours(2),
                 SigningCredentials = new SigningCredentials(
                     _tokenParameters.IssuerSigningKey,
@@ -59,7 +61,7 @@ public class AuthController : ControllerBase
         }
         else
         {
-            return Ok(new { message = "Contraseña o Datos de usuario Incorrectos" });
+            return Unauthorized(new { message = "Contraseña o Datos de usuario Incorrectos" });
         }
     }
 }

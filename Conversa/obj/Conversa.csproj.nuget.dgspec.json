@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Conversa.csproj": {}
+    "C:\\Users\\yasir\\Desktop\\Conversa\\Conversa\\Conversa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Conversa.csproj": {
+    "C:\\Users\\yasir\\Desktop\\Conversa\\Conversa\\Conversa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Conversa.csproj",
+        "projectUniqueName": "C:\\Users\\yasir\\Desktop\\Conversa\\Conversa\\Conversa.csproj",
         "projectName": "Conversa",
-        "projectPath": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Conversa.csproj",
-        "packagesPath": "C:\\Users\\chrro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\obj\\",
+        "projectPath": "C:\\Users\\yasir\\Desktop\\Conversa\\Conversa\\Conversa.csproj",
+        "packagesPath": "C:\\Users\\yasir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yasir\\Desktop\\Conversa\\Conversa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\chrro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yasir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1,42 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\",
+  "WorkspaceRootPath": "C:\\Users\\yasir\\Desktop\\Conversa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\chrro\\onedrive\\documentos\\desarrollo web entorno cliente\\conversa\\conversa\\websockets\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\websockets\\websockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\yasir\\desktop\\conversa\\conversa\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\chrro\\onedrive\\documentos\\desarrollo web entorno cliente\\conversa\\conversa\\websockets\\chathandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\websockets\\chathandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\chrro\\onedrive\\documentos\\desarrollo web entorno cliente\\conversa\\conversa\\models\\databases\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\yasir\\desktop\\conversa\\conversa\\models\\databases\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\models\\databases\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\chrro\\onedrive\\documentos\\desarrollo web entorno cliente\\conversa\\conversa\\controllers\\websockercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\controllers\\websockercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\chrro\\onedrive\\documentos\\desarrollo web entorno cliente\\conversa\\conversa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\chrro\\onedrive\\documentos\\desarrollo web entorno cliente\\conversa\\conversa\\models\\databases\\entities\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\models\\databases\\entities\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\chrro\\onedrive\\documentos\\desarrollo web entorno cliente\\conversa\\conversa\\models\\databases\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\yasir\\desktop\\conversa\\conversa\\models\\databases\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\models\\databases\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\chrro\\onedrive\\documentos\\desarrollo web entorno cliente\\conversa\\conversa\\models\\databases\\repository\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\models\\databases\\repository\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\yasir\\desktop\\conversa\\conversa\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\chrro\\onedrive\\documentos\\desarrollo web entorno cliente\\conversa\\conversa\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|c:\\users\\yasir\\desktop\\conversa\\conversa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAC3A1-84C5-413A-894F-F3027B7A7A76}|Conversa\\Conversa.csproj|solutionrelative:conversa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,117 +30,73 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WebsockerController.cs",
-              "DocumentMoniker": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Controllers\\WebsockerController.cs",
-              "RelativeDocumentMoniker": "Conversa\\Controllers\\WebsockerController.cs",
-              "ToolTip": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Controllers\\WebsockerController.cs",
-              "RelativeToolTip": "Conversa\\Controllers\\WebsockerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\yasir\\Desktop\\Conversa\\Conversa\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Conversa\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\yasir\\Desktop\\Conversa\\Conversa\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "Conversa\\Controllers\\AuthController.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwEEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T15:42:23.767Z",
+              "WhenOpened": "2025-03-10T12:12:45.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\yasir\\Desktop\\Conversa\\Conversa\\Models\\Databases\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "Conversa\\Models\\Databases\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\yasir\\Desktop\\Conversa\\Conversa\\Models\\Databases\\DataSeeder.cs",
+              "RelativeToolTip": "Conversa\\Models\\Databases\\DataSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T11:33:48.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DataSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Models\\Databases\\DataSeeder.cs",
-              "RelativeDocumentMoniker": "Conversa\\Models\\Databases\\DataSeeder.cs",
-              "ToolTip": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Models\\Databases\\DataSeeder.cs",
-              "RelativeToolTip": "Conversa\\Models\\Databases\\DataSeeder.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAYwFgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T16:29:02.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MessageController.cs",
-              "DocumentMoniker": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Controllers\\MessageController.cs",
-              "RelativeDocumentMoniker": "Conversa\\Controllers\\MessageController.cs",
-              "ToolTip": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Controllers\\MessageController.cs",
-              "RelativeToolTip": "Conversa\\Controllers\\MessageController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T16:24:28.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MessageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Models\\Databases\\Repository\\MessageRepository.cs",
-              "RelativeDocumentMoniker": "Conversa\\Models\\Databases\\Repository\\MessageRepository.cs",
-              "ToolTip": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Models\\Databases\\Repository\\MessageRepository.cs",
-              "RelativeToolTip": "Conversa\\Models\\Databases\\Repository\\MessageRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T16:23:27.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Messages.cs",
-              "DocumentMoniker": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Models\\Databases\\Entities\\Messages.cs",
-              "RelativeDocumentMoniker": "Conversa\\Models\\Databases\\Entities\\Messages.cs",
-              "ToolTip": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Models\\Databases\\Entities\\Messages.cs",
-              "RelativeToolTip": "Conversa\\Models\\Databases\\Entities\\Messages.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T15:55:38.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "chatHandler.cs",
-              "DocumentMoniker": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Websockets\\chatHandler.cs",
-              "RelativeDocumentMoniker": "Conversa\\Websockets\\chatHandler.cs",
-              "ToolTip": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Websockets\\chatHandler.cs",
-              "RelativeToolTip": "Conversa\\Websockets\\chatHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T15:51:20.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "websocketHandler.cs",
-              "DocumentMoniker": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Websockets\\websocketHandler.cs",
-              "RelativeDocumentMoniker": "Conversa\\Websockets\\websocketHandler.cs",
-              "ToolTip": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Websockets\\websocketHandler.cs",
-              "RelativeToolTip": "Conversa\\Websockets\\websocketHandler.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAiwEYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T15:11:10.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Models\\Databases\\DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\yasir\\Desktop\\Conversa\\Conversa\\Models\\Databases\\DataContext.cs",
               "RelativeDocumentMoniker": "Conversa\\Models\\Databases\\DataContext.cs",
-              "ToolTip": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Models\\Databases\\DataContext.cs",
+              "ToolTip": "C:\\Users\\yasir\\Desktop\\Conversa\\Conversa\\Models\\Databases\\DataContext.cs",
               "RelativeToolTip": "Conversa\\Models\\Databases\\DataContext.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T16:46:50.998Z"
+              "WhenOpened": "2025-03-10T11:05:29.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\yasir\\Desktop\\Conversa\\Conversa\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "Conversa\\Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\yasir\\Desktop\\Conversa\\Conversa\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "Conversa\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T10:57:23.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\yasir\\Desktop\\Conversa\\Conversa\\Program.cs",
               "RelativeDocumentMoniker": "Conversa\\Program.cs",
-              "ToolTip": "C:\\Users\\chrro\\OneDrive\\Documentos\\Desarrollo web entorno cliente\\Conversa\\Conversa\\Program.cs",
+              "ToolTip": "C:\\Users\\yasir\\Desktop\\Conversa\\Conversa\\Program.cs",
               "RelativeToolTip": "Conversa\\Program.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwE4AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T15:05:14.607Z",
               "EditorCaption": ""
